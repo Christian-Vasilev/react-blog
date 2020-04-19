@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="353" height="241" viewBox="0 0 353 241">
+  <g id="Background_shapes" data-name="Background shapes" transform="translate(-697 -355)">
+    <g id="Shapes">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="276" height="35" rx="17.5" transform="translate(713 355)" fill="#3b4252"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="174" height="35" rx="17.5" transform="translate(697 421)" fill="#3b4252"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="239" height="35" rx="17.5" transform="translate(707 487)" fill="#3b4252"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="208" height="35" rx="17.5" transform="translate(842 561)" fill="#3b4252"/>
+      <path id="Path_2" data-name="Path 2" d="M744.746,386.874s8.12,10.005,8.12,20.3-8.12,20.881-8.12,20.881h34.221s-9.86-10.585-9.86-20.881,9.86-20.3,9.86-20.3Z" fill="#3b4252"/>
+      <path id="Path_43" data-name="Path 43" d="M744.746,386.874s8.12,10.005,8.12,20.3-8.12,20.881-8.12,20.881h34.221s-9.86-10.585-9.86-20.881,9.86-20.3,9.86-20.3Z" transform="translate(117.254 132.536)" fill="#3b4252"/>
+      <path id="Path_3" data-name="Path 3" d="M817.249,450.1c-3.915.87,4.64,13.485,3.48,26.1s-8.12,24.361-8.12,24.361h30.741s-.435-15.226-6.96-27.841c-4.209-8.137,4.373-18.4,0-22.621C834.327,448.1,818.638,449.787,817.249,450.1Z" fill="#3b4252"/>
+    </g>
+  </g>
+</svg>

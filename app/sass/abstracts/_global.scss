@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: $background-color-dark;
+  font-family: "Nunito", sans-serif;
+  color: $white-color;
+}
+
+.show {
+  display: block !important;
+}
+
+.btn {
+  padding: 15px 15px;
+  border-radius: 5px;
+  border: none;
+  color: $white-color;
+  background: none;
+
+  &:hover {
+    background-color:$btn-dark-color;
+  }
+}
+
+.lift {
+  &:hover {
+    transform: translateY(-0.25em);
+    transition: 0.25s;
+  }
+}
+
+.btn-dark {
+  background-color:$btn-dark-color;
+  color: $white-color;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}

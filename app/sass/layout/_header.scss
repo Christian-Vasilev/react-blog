@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .logo {
+    color: $white-color;
+    font-size: 26px;
+    padding: 27px 10px;
+    font-family: "Nunito SemiBold", sans-serif;
+  }
+
+  @include large {
+    flex-direction: row;
+    padding: 30px 10%;
+  }
+}
