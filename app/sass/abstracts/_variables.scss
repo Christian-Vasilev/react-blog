@@ -1,9 +1,33 @@
-// Dark theme variables
-$background-color-dark: #2E3440;
-$white-color: #ECEFF4;
-$btn-dark-color: #4C566A;
-$accent-color: #5E81AC;
-$category-background: #3B4252;
+:root {
+  --primary-color: #FFFFF;
+  --font-color: #2E3440;
+  --background-color: #4C566A;
+  --button-font-color: #FFFFFF;
+  --after-color: #5E81AC;
+  --decoration-fill-color: #3b4252;
+  --after-image-url: url('/resources/images/decoration-third-light.svg');
+}
+
+[data-theme="dark"] {
+  --primary-color: #2E3440;
+  --font-color: #ECEFF4;
+  --background-color: #4C566A;
+  --heading-color: #ECEFF4;
+  --button-font-color: #FFFFFF;
+  --after-color: #5E81AC;
+  --decoration-fill-color: #D8DEE9;
+  --after-image-url: url('/resources/images/decoration-third.svg');
+}
+
+
+$primary-color: var(--primary-color);
+$font-color: var(--font-color);
+$background-color: var(--background-color);
+$button-font-color: var(--button-font-color);
+$after-color: var(--after-color);
+$decoration-fill-color: var(--decoration-fill-color);
+$after-image-url: var(--after-image-url);
+
 
 // Breakpoints for media queries
 $break-small: 320px;

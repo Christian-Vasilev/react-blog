@@ -16,9 +16,9 @@ nav {
   }
 
   .icon-bars {
-    color: $white-color;
+    color: $font-color;
     padding: 15px 15px;
-    background-color:$btn-dark-color;
+    background-color: $background-color;
     border-radius: 5px;
   }
 
@@ -30,16 +30,17 @@ nav {
   }
 
   .item-dark {
-    color: $white-color;
+    color: $font-color;
 
     &:hover {
-      background-color:$btn-dark-color;
+      background-color: $background-color;
+      color: $button-font-color;
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
 
     &:active {
-      background-color:$btn-dark-color;
+      background-color: $background-color;
       border-radius: 5px;
     }
   }

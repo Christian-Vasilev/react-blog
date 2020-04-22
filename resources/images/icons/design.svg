@@ -1,0 +1,33 @@
+<svg id="Design_widnows" data-name="Design widnows" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.785" height="63.365" viewBox="0 0 80.785 63.365">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" opacity="0.5">
+    <rect id="Rectangle_19" data-name="Rectangle 19" width="45.84" height="37.651" fill="url(#linear-gradient)"/>
+  </g>
+  <rect id="Rectangle_20" data-name="Rectangle 20" width="44.682" height="36.316" transform="translate(0.534 0.712)" fill="#f2f2f2"/>
+  <rect id="Rectangle_21" data-name="Rectangle 21" width="44.682" height="8.1" transform="translate(0.534 0.712)" fill="#eceff4"/>
+  <rect id="Rectangle_22" data-name="Rectangle 22" width="44.682" height="8.1" transform="translate(0.534 0.712)" opacity="0.1"/>
+  <rect id="Rectangle_23" data-name="Rectangle 23" width="37.562" height="4.718" transform="translate(4.095 11.749)" fill="#e0e0e0"/>
+  <rect id="Rectangle_24" data-name="Rectangle 24" width="27.414" height="1.602" transform="translate(4.095 20.027)" fill="#e0e0e0"/>
+  <rect id="Rectangle_25" data-name="Rectangle 25" width="17.801" height="1.602" transform="translate(4.095 22.786)" fill="#e0e0e0"/>
+  <rect id="Rectangle_26" data-name="Rectangle 26" width="23.498" height="1.602" transform="translate(4.095 25.546)" fill="#e0e0e0"/>
+  <rect id="Rectangle_27" data-name="Rectangle 27" width="27.414" height="1.602" transform="translate(4.095 28.304)" fill="#e0e0e0"/>
+  <rect id="Rectangle_28" data-name="Rectangle 28" width="9.168" height="1.602" transform="translate(4.095 31.064)" fill="#e0e0e0"/>
+  <g id="Group_3" data-name="Group 3" transform="translate(23.639 16.427)" opacity="0.5">
+    <rect id="Rectangle_39" data-name="Rectangle 39" width="57.145" height="46.937" fill="url(#linear-gradient)"/>
+  </g>
+  <rect id="Rectangle_40" data-name="Rectangle 40" width="55.703" height="45.272" transform="translate(24.305 17.314)" fill="#fff"/>
+  <rect id="Rectangle_41" data-name="Rectangle 41" width="55.703" height="10.097" transform="translate(24.305 17.314)" fill="#eceff4"/>
+  <rect id="Rectangle_42" data-name="Rectangle 42" width="46.826" height="5.881" transform="translate(28.743 31.073)" fill="#f5f5f5"/>
+  <rect id="Rectangle_43" data-name="Rectangle 43" width="34.176" height="1.997" transform="translate(28.743 41.393)" fill="#e0e0e0"/>
+  <rect id="Rectangle_44" data-name="Rectangle 44" width="22.192" height="1.997" transform="translate(28.743 44.833)" fill="#e0e0e0"/>
+  <rect id="Rectangle_45" data-name="Rectangle 45" width="29.294" height="1.997" transform="translate(28.743 48.272)" fill="#e0e0e0"/>
+  <rect id="Rectangle_46" data-name="Rectangle 46" width="34.176" height="1.997" transform="translate(28.743 51.712)" fill="#e0e0e0"/>
+  <rect id="Rectangle_47" data-name="Rectangle 47" width="11.429" height="1.997" transform="translate(28.743 55.152)" fill="#e0e0e0"/>
+  <rect id="Rectangle_48" data-name="Rectangle 48" width="13.315" height="1.775" transform="translate(31.184 33.071)" fill="#69f0ae"/>
+</svg>
