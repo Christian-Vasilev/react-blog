@@ -6,6 +6,8 @@
   --after-color: #5E81AC;
   --decoration-fill-color: #3b4252;
   --after-image-url: url('/resources/images/decoration-third-light.svg');
+  --hero-after-image-url: url('/resources/images/decoration-light.svg');
+  --blog-category-background: url("/resources/images/blog-category-background-light.svg");
 }
 
 [data-theme="dark"] {
@@ -17,6 +19,8 @@
   --after-color: #5E81AC;
   --decoration-fill-color: #D8DEE9;
   --after-image-url: url('/resources/images/decoration-third.svg');
+  --hero-after-image-url: url('/resources/images/decoration.svg');
+  --blog-category-background: url("/resources/images/blog-category-background.svg");
 }
 
 
@@ -27,6 +31,8 @@ $button-font-color: var(--button-font-color);
 $after-color: var(--after-color);
 $decoration-fill-color: var(--decoration-fill-color);
 $after-image-url: var(--after-image-url);
+$hero-after-image-url: var(--hero-after-image-url);
+$blog-category-image: var(--blog-category-background);
 
 
 // Breakpoints for media queries

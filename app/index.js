@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './sass/app.scss'
-import { FaBars, FaMoon, FaSun } from "react-icons/all";
+import { FaBars, FaMoon, FaSun, FaWindowClose } from "react-icons/all";
 import Homepage from "./components/Homepage";
 import { Helmet } from "react-helmet";
 import { ThemeProvider } from "./contexts/theme";
@@ -22,30 +22,33 @@ class Nav extends React.Component {
         return (
             <ThemeConsumer>
                 { ({ theme, toggleTheme }) => (
-                    <header>
-                        <div className='logo'>Christian</div>
-                        <nav>
-                            <ul className='navbar'>
-                                <li className={`item item-dark${ expandMobile ? ' show' : '' }`}>Home</li>
-                                <li className={`item item-dark${ expandMobile ? ' show' : '' }`}>Blog</li>
-                                <li className={`item item-dark${ expandMobile ? ' show' : '' }`}>Portfolio</li>
-                                <li className={`item item-dark${ expandMobile ? ' show' : '' }`}>Contact</li>
-                                <li className={`item ${ expandMobile ? ' show' : '' }`}>
-                                    <button className='btn-reset' onClick={toggleTheme}>
-                                        {theme === 'light' ? <FaMoon size={16} /> : <FaSun size={16} />}
-                                    </button>
-                                </li>
-                                <li className='toggle'>
-                                    <button
-                                        type='button'
-                                        className='btn btn-dark'
-                                        onClick={this.click}>
-                                        <FaBars size={22}/>
-                                    </button>
-                                </li>
-                            </ul>
-                        </nav>
-                    </header>
+                    <div className='inner-wrapper'>
+                        <header>
+                            <div className='logo'>Christian</div>
+                            <button className='btn-reset theme-mobile' onClick={toggleTheme}>
+                                {theme === 'light' ? <FaMoon size={26} /> : <FaSun size={26} />}
+                            </button>
+                            <button onClick={this.click} className='btn-reset toggle'><FaBars size={26}/></button>
+                            <nav>
+                                <div className={`mobile-menu${ expandMobile ? ' open' : '' }`}>
+                                    <div className='main-nav'>
+                                        <ul>
+                                            <li onClick={this.click} className='menu-item lg-hidden'><FaWindowClose size={26}/></li>
+                                            <li className='menu-item'>Home</li>
+                                            <li className='menu-item'>Blog</li>
+                                            <li className='menu-item'>Portfolio</li>
+                                            <li className='menu-item'>Contacts</li>
+                                            <li>
+                                                <button className='btn-reset theme' onClick={toggleTheme}>
+                                                    {theme === 'light' ? <FaMoon size={26} /> : <FaSun size={26} />}
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </header>
+                    </div>
                 )}
             </ThemeConsumer>
         );

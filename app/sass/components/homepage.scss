@@ -1,7 +1,6 @@
 
 section#hero-section {
   position: relative;
-
   .container {
     display: flex;
     flex-direction: column;
@@ -47,16 +46,6 @@ section#hero-section {
     }
   }
 
-  @include min-width(1600px) {
-    .container {
-      .decoration {
-        display: block;
-        position: absolute;
-        left: 45%;
-      }
-    }
-  }
-
   @include large {
     .container {
       flex-direction: row;
@@ -79,6 +68,19 @@ section#hero-section {
         }
       }
     }
+  }
+}
+
+@include min-width(1600px) {
+  #hero-section::after {
+    background: $hero-after-image-url;
+    display: block;
+    content: '';
+    width: 312px;
+    height: 235px;
+    position: absolute;
+    top: 0;
+    right: 35%;
   }
 }
 
@@ -122,7 +124,7 @@ section#blog-posts {
 }
 
 .blog-category-background {
-  background-image: url("/resources/images/blog-category-background.svg");
+  background-image: $blog-category-image;
   width: 133px;
   height: 134px;
   display: flex;
@@ -180,7 +182,7 @@ section#blog-posts {
     display: block;
     content: '';
     width: 353px;
-    height: 241px;
+    height: 240px;
     position: absolute;
     top: 0;
     right: 0;

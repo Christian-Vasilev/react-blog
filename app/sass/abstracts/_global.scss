@@ -10,9 +10,19 @@ body {
   transition-duration: .2s;
   transition-timing-function: ease;
 }
+button {
+  border: none;
+  color: $font-color;
+  background: none;
+
+  &:focus {
+    outline: none;
+  }
+}
 
 .show {
-  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .inner-wrapper {
@@ -21,18 +31,17 @@ body {
   padding: 0 30px;
 }
 
-.btn-reset {
-  border: none;
-  color: $font-color;
-  background: none;
-}
-
 .btn {
   padding: 15px 15px;
   border-radius: 5px;
   border: none;
   color: var(--font-color);
   background: none;
+  outline:none;
+
+  &:focus {
+    outline:none;
+  }
 
   &:hover {
     background-color: $background-color;
